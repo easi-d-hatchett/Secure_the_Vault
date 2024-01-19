@@ -21,11 +21,18 @@ header {
   }
   main {
     display: flex;
-    flex: 15;
+    flex: 13;
     flex-direction: row;
     gap: 1rem;
   }
   footer {
     display: flex;
     flex: 8;
+  }
+  .main_nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5rem;
+    margin-left: 1rem;
   }
